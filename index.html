@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idle Server Defender</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #1a202c, #2d3748);
+        }
+        .card-glow {
+            box-shadow: 0 0 15px rgba(52, 211, 153, 0.3), 0 0 5px rgba(59, 130, 246, 0.2);
+        }
+    </style>
+</head>
+<body class="gradient-bg text-gray-200 flex items-center justify-center min-h-screen p-4 sm:p-6 lg:p-8">
+
+    <!-- Main Card -->
+    <div class="w-full max-w-4xl bg-gray-800 bg-opacity-75 backdrop-blur-sm rounded-2xl shadow-2xl overflow-hidden card-glow border border-gray-700">
+        <div class="md:flex">
+            <!-- Left Side: Icon and Title -->
+            <div class="md:w-1/3 bg-gray-900 bg-opacity-50 p-8 flex flex-col items-center justify-center text-center">
+                <div class="w-32 h-32 mb-4 bg-gray-700 rounded-full flex items-center justify-center border-4 border-emerald-400">
+                    <!-- Placeholder for Game Icon - using an SVG shield -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                    </svg>
+                </div>
+                <h1 class="text-3xl font-bold text-white">Idle Server Defender</h1>
+                <p class="text-emerald-400 mt-2">Protect your digital realm!</p>
+            </div>
+
+            <!-- Right Side: Details and CTA -->
+            <div class="md:w-2/3 p-8">
+                <h2 class="text-2xl font-bold text-white mb-4">About the Game</h2>
+                <p class="text-gray-300 mb-6 leading-relaxed">
+                    Prepare for an epic battle against relentless viruses in "Idle Server Defender," the most thrilling server-themed Idle Tower Defense mobile game! Immerse yourself in a world where your strategic skills are put to the ultimate test as you defend your server tower from waves of digital threats.
+                </p>
+
+                <h3 class="text-xl font-bold text-white mb-3">Key Features</h3>
+                <ul class="space-y-3 mb-8">
+                    <li class="flex items-center">
+                        <svg class="w-5 h-5 text-emerald-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path></svg>
+                        <span>Craft your unique tower defense strategy.</span>
+                    </li>
+                    <li class="flex items-center">
+                        <svg class="w-5 h-5 text-emerald-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+                        <span>Endless upgrades for your server's stats.</span>
+                    </li>
+                    <li class="flex items-center">
+                         <svg class="w-5 h-5 text-emerald-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4M4 7v4c0 2.21 3.582 4 8 4s8-1.79 8-4V7"></path></svg>
+                        <span>Manage resources to enhance your tower.</span>
+                    </li>
+                     <li class="flex items-center">
+                        <svg class="w-5 h-5 text-emerald-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 14v6m-3-3h6M3 10h2a2 2 0 012 2v6a2 2 0 01-2 2H3a2 2 0 01-2-2v-6a2 2 0 012-2zM3 10V7a2 2 0 012-2h2"></path></svg>
+                        <span>Utilize element slots for a strategic advantage.</span>
+                    </li>
+                </ul>
+
+                <a href="https://play.google.com/store/apps/details?id=com.TeaEyesCO.IdleServerDefender" 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   class="block w-full text-center bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-3 px-6 rounded-lg transition-transform transform hover:scale-105 duration-300 ease-in-out shadow-lg">
+                    Download on Google Play
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
